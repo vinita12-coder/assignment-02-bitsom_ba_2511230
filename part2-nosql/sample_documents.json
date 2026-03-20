@@ -1,0 +1,99 @@
+[
+  {
+    "_id": "PROD_ELEC_001",
+    "product_id": "ELEC001",
+    "product_name": "Apple MacBook Pro 16\"",
+    "category": "Electronics",
+    "price": 2499.99,
+    "stock": 45,
+    "warranty_months": 12,
+    "voltage_spec": "100-240V AC",
+    "processor": "Apple M2 Pro",
+    "ram_gb": 16,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 16,
+      "resolution": "3072x1920",
+      "refresh_rate_hz": 120,
+      "panel_type": "Liquid Retina XDR"
+    },
+    "battery_life_hours": 18,
+    "weight_kg": 2.1,
+    "ports": ["Thunderbolt 4", "HDMI", "SD Card", "3.5mm Jack"],
+    "rating": 4.8,
+    "reviews_count": 1250,
+    "in_stock": true,
+    "created_at": "2023-01-15T10:30:00Z",
+    "updated_at": "2024-03-15T14:25:00Z"
+  },
+  {
+    "_id": "PROD_CLOTH_001",
+    "product_id": "CLOTH001",
+    "product_name": "Premium Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 29.99,
+    "stock": 250,
+    "material": "100% Organic Cotton",
+    "material_percentage": {
+      "cotton": 100,
+      "polyester": 0,
+      "spandex": 0
+    },
+    "sizes_available": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": ["White", "Black", "Navy Blue", "Red", "Gray"],
+    "fit_type": "Regular Fit",
+    "care_instructions": {
+      "wash": "Cold water, gentle cycle",
+      "dry": "Air dry or tumble dry low",
+      "iron": "Medium heat if needed",
+      "bleach": "Do not bleach"
+    },
+    "gender": "Unisex",
+    "sustainable": true,
+    "certification": "GOTS (Global Organic Textile Standard)",
+    "brand": "EcoWear",
+    "rating": 4.6,
+    "reviews_count": 450,
+    "in_stock": true,
+    "created_at": "2023-06-20T08:15:00Z",
+    "updated_at": "2024-03-10T09:45:00Z"
+  },
+  {
+    "_id": "PROD_GROC_001",
+    "product_id": "GROC001",
+    "product_name": "Organic Whole Wheat Bread",
+    "category": "Groceries",
+    "price": 4.99,
+    "stock": 120,
+    "expiry_date": "2024-03-25T23:59:59Z",
+    "manufacturing_date": "2024-03-15T06:00:00Z",
+    "shelf_life_days": 10,
+    "weight_grams": 500,
+    "ingredients": [
+      "Whole Wheat Flour",
+      "Water",
+      "Sea Salt",
+      "Yeast",
+      "Sunflower Oil"
+    ],
+    "allergens": ["Gluten", "May contain Nuts"],
+    "nutritional_info": {
+      "calories_per_100g": 265,
+      "protein_g": 9.2,
+      "carbs_g": 49.5,
+      "fat_g": 1.5,
+      "fiber_g": 7.0,
+      "sugar_g": 2.0,
+      "sodium_mg": 490
+    },
+    "certifications": ["Organic", "Vegan", "Non-GMO"],
+    "producer": "Artisan Bakery Co.",
+    "storage_instructions": "Store in cool, dry place. Refrigerate after opening.",
+    "rating": 4.7,
+    "reviews_count": 890,
+    "in_stock": true,
+    "best_before": "2024-03-25",
+    "created_at": "2024-03-15T06:30:00Z",
+    "updated_at": "2024-03-15T12:00:00Z"
+  }
+]
