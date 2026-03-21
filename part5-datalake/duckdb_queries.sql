@@ -1,5 +1,4 @@
 -- ============================================================
--- duckdb_queries.sql
 -- Part 5: Data Lake — DuckDB Cross-Format Queries
 -- Files: customers.csv, orders.json, products.parquet
 -- ============================================================
